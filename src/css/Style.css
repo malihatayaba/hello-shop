@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Concert One", sans-serif;
+}
+.logo {
+  max-width: 100%;
+  width: 30px;
+  text-align: center;
+  padding-right: 3px;
+}
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+}
+.icon-hello {
+  color: #4c5b61;
+}
+h1 {
+  color: #a0ac7a;
+}
+
+.list-container {
+  display: flex;
+  align-items: center;
+}
+li {
+  margin: 16px;
+  color: #4c5b61;
+  list-style-type: none;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+}
+.banner-conatainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e2ecc0;
+  padding: 50px;
+  border-radius: 10px;
+}
+.banner-text {
+  max-width: 600px;
+  margin: 32px 0px 0px;
+  padding: 0px 0px 0px 12px;
+}
+.banner-title {
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  color: #4c5b61;
+  margin: 20px 0px 0px;
+  padding-bottom: 20px;
+}
+.banner-paragraph {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+}
+img {
+  max-width: 100%;
+}
+
+.card-container {
+  display: flex;
+  padding: 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-body {
+  padding: 32px;
+  box-shadow: 0px 8px 8px 0px rgba(21, 21, 21, 0.2);
+  margin: 0px 25px;
+  border-radius: 10px;
+  background-color: #e2ecc0;
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #4c5b61;
+}
+
+.card-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+.footer-container{
+  background-image: url("src/img/digimart1.jpg");
+ background-size: cover;
+  max-width: 100%;
+  margin: 0,auto;
+ padding: 50px;
+ }
+
+ li{
+  font-size: 21px;
+  font-weight: 900;
+ }
